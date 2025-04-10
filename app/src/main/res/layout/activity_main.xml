@@ -17,7 +17,7 @@
             android:id="@+id/titleView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/versa"
+            android:fontFamily="@font/versablock"
             android:text="@string/simon_says"
             android:textColor="@color/white"
             android:textSize="38sp"
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="185dp"
-            android:fontFamily="@font/versa"
+            android:fontFamily="@font/versablock"
             android:gravity="center"
             android:text="@string/score_0"
             android:textColor="#FFFFFF"
@@ -45,13 +45,14 @@
             tools:ignore="VisualLintOverlap" />
 
         <!-- Start Button -->
+
         <Button
             android:id="@+id/startButton"
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="#B6B2B2"
-            android:fontFamily="@font/versa"
+            android:fontFamily="@font/versablock"
             android:text="@string/start"
             android:textColor="#3E2723"
             android:textSize="20sp"
@@ -69,7 +70,7 @@
             android:text="@string/top_5_scores"
             android:textColor="@color/white"
             android:textSize="24sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/versablock"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/startButton" />
@@ -77,15 +78,19 @@
         <!-- Reset High Scores Button -->
         <Button
             android:id="@+id/resetHighScoresButton"
-            android:layout_width="300dp"
+            android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_marginTop="15dp"
             android:backgroundTint="#B6B2B2"
-            android:fontFamily="@font/versa"
+            android:fontFamily="@font/versablock"
             android:text="@string/reset_high_scores"
             android:textColor="#3E2723"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxWidth="300dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/topScoresText" />
@@ -97,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintHorizontal_bias="0.488"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/titleView">
 
@@ -153,6 +158,22 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintWidth_percent="0.47" />
+
+            <TextView
+                android:id="@+id/roundTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="126dp"
+                android:fontFamily="@font/versablock"
+                android:text="@string/round_1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

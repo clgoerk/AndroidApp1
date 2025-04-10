@@ -15,4 +15,5 @@
     <string name="start">START</string>
     <string name="reset_high_scores">RESET HIGH SCORES</string>
     <string name="high_scores_cleared">High Scores Reset!</string>
+    <string name="round_1">Round: 1</string>
 </resources>
