@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- First Circle (Full Circle) -->
+        <shape
+            android:shape="oval">
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <item android:left="50dp">
+        <!-- Second Circle (Cut-out Portion) -->
+        <shape
+            android:shape="oval">
+            <solid android:color="@android:color/black" />
+        </shape>
+    </item>
+</layer-list>

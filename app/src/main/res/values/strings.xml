@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AndroidApp1</string>
+    <string name="score_0">Score: 0</string>
+    <string name="start_game">Start Game</string>
+    <string name="red_button">red button</string>
+    <string name="green_button">green button</string>
+    <string name="blue_button">blue button</string>
+    <string name="yellow_button">yellow button</string>
+    <string name="blue">blue</string>
+    <string name="yellow">yellow</string>
+    <string name="green">green</string>
+    <string name="red">red</string>
+    <string name="simon_says">SIMON SAYS</string>
+    <string name="top_5_scores">Top 5 Scores:</string>
+    <string name="start">START</string>
+    <string name="reset_high_scores">RESET HIGH SCORES</string>
+    <string name="high_scores_cleared">High Scores Reset!</string>
+</resources>
